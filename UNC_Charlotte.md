@@ -1,3 +1,5 @@
+```markdown
+
 # [Name of repository](https://example.sample)
 
 ## Overview:
@@ -40,7 +42,8 @@ Brief overview of the setup. Is it on a single machine, or multiple machines. Th
 
 Tree output of your repository-policies directory (`tree /path/to/repository-policies`).
 
-```
+CODEBLOCK
+
 repository-policies
 ├── default
 │   ├── deny-reloadPolicies-if-not-localhost.xml
@@ -55,42 +58,6 @@ repository-policies
     ├── permit-getDatastreamHistory-unrestricted.xml
     ├── permit-getDatastream-unrestricted.xml
     └── permit-upload-to-authenticated-user.xml
-```
-
-## Line Width Test
-
-```
-+------------------------------------------------------------------------------+
-                                                                                
-+------+                                                        +------+        
-|      |                                                        |      |        
-|      |                                                        |      |        
-|      |                                                        |      |        
-+------+                                                        +------+        
-        +------+                                        +------+                
-        |      |                                        |      |                
-        |      |                                        |      |                
-        |      |                                        |      |                
-        +------+                                        +------+                
-                +------+                        +------+                        
-                |      |                        |      |                        
-                |      |                        |      |                        
-                |      |                        |      |                        
-                +------+                        +------+                        
-                        +------+        +------+                                
-                        |      |        |      |                                
-                        |      |        |      |                                
-                        |      |        |      |                                
-                        +------+        +------+                                
-                                +------+                                        
-                                |      |                                        
-                                |      |                                        
-                                |      |                                        
-                                +------+                                        
-
-
-```
-
 
 ## Drupal Modules:
 
@@ -103,3 +70,5 @@ repository-policies
 * A list of links to GitHub (or other)
 * repositories containing build scripts,
 * deployment scripts, etc., that you use
+```
+
